@@ -14,7 +14,7 @@ public class NewTest {
   @Test
   public void openMyBlog() {
  driver.get("https://www.softwaretestingmaterial.com/");
-//we expect the title “Google “ should be present 
+//we expect the title “Google “ should be present sdfsd
 String Expectedtitle = "Software Testing Material";
 //it will fetch the actual title 
 String Actualtitle = driver.getTitle();
